@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-const targetDate = new Date('2023-12-31 00:00:00').getTime();
+const targetDate = new Date('2023-11-24 00:00:00').getTime();
 
 // Update the countdown every second
 const countdownInterval = setInterval(function() {

@@ -17,6 +17,7 @@
   --nav-font: "Lato", sans-serif;
 }
 
+
 /* Global Colors */
 :root {
   --background-color: #ffffff;
@@ -53,6 +54,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+
 }
 
 a {
@@ -178,7 +180,8 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 600px;
+  max-width: 600px;
   margin-right: 6px;
 }
 
@@ -672,12 +675,15 @@ section {
     transition-delay: 0 !important;
   }
 }
-
+link[rel="icon"] {
+  width: 100px; /* Adjust this value to make it bigger */
+  height: 100px; /* Adjust this value to make it bigger */
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  --background-color: #f4f4f4;
+  --background-color: white;
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
@@ -935,7 +941,7 @@ section {
 /* About Section - Home Page
 ------------------------------*/
 .about {
-  --background-color: #f4f4f4;
+  --background-color: #e2d7d2;
 }
 
 .about .content h3 {
@@ -1101,6 +1107,9 @@ section {
 .services .service-item {
   position: relative;
   padding-top: 40px;
+}
+.services{
+  background-color: #e2d7d2;
 }
 
 .services .service-item:before {
@@ -1619,7 +1628,7 @@ section {
 /* Team Section - Home Page
 ------------------------------*/
 .team {
-  --background-color: #f4f4f4;
+  --background-color: #e2d7d2;
 }
 
 .team .member {
